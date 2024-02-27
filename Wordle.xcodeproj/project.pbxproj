@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		127097C22B8EA35D0046505E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127097C12B8EA35D0046505E /* Assets.xcassets */; };
+		127097C82B8EA64D0046505E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127097C72B8EA64D0046505E /* Launch Screen.storyboard */; };
 		991CEC0629999E2A0095F025 /* KeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CEC0529999E2A0095F025 /* KeyboardCell.swift */; };
 		991CEC0829999ECD0095F025 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CEC0729999ECD0095F025 /* KeyboardController.swift */; };
 		9953C05529A40AC700247C5B /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953C05429A40AC700247C5B /* BoardController.swift */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		127097C12B8EA35D0046505E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		127097C72B8EA64D0046505E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		991CEC0529999E2A0095F025 /* KeyboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCell.swift; sourceTree = "<group>"; };
 		991CEC0729999ECD0095F025 /* KeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
 		9953C05429A40AC700247C5B /* BoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				996B84AB299990A900133037 /* ViewController.swift */,
+				127097C12B8EA35D0046505E /* Assets.xcassets */,
+				127097C72B8EA64D0046505E /* Launch Screen.storyboard */,
 				99CF2AA729B0168700B4973F /* Constants.swift */,
 				996B84D7299994A300133037 /* LetterCell.swift */,
 				9953C05429A40AC700247C5B /* BoardController.swift */,
@@ -268,6 +274,8 @@
 			files = (
 				996B84B4299990AA00133037 /* LaunchScreen.storyboard in Resources */,
 				996B84B1299990AA00133037 /* Assets.xcassets in Resources */,
+				127097C22B8EA35D0046505E /* Assets.xcassets in Resources */,
+				127097C82B8EA64D0046505E /* Launch Screen.storyboard in Resources */,
 				996B84AF299990A900133037 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
